@@ -247,12 +247,12 @@ body {
 
 .newsline {
     color: black;
-    margin-left: -10px;
-    font-size: 26px;
+    margin-left: -1%;
+    font-size: 1.85vw;
 }
 
 .new-sub-title {
-    font-size: 18px;
-    margin-inline-start: 86px;
-    margin-top: 1em;
+    font-size: 1.2vw;
+    margin-inline-start: 5.7vw;
+    margin-top: 1vh;
 }
