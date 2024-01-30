@@ -2,8 +2,8 @@ body,
 div {
     position: relative;
     line-height: 120%;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
     display: block;
     font-size: 1.2vw;
     font-family: "蘋果儷中黑", "Helvetica Neue", Helvetica, "Roboto", Arial, "Apple LiGothic Medium", sans-serif;
