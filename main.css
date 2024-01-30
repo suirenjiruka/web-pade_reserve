@@ -192,11 +192,8 @@ body {
 }
 
 .schedule_text {
-<<<<<<< HEAD
     max-width: 35%;
-=======
-
->>>>>>> 5d040e2780129dfa399def566797616be5172f9f
+    min-width: 20%;
     padding: 0;
     margin: 0;
     padding-left: 42%;
