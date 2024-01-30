@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="2024競賽, 前瞻顯示, 資訊競賽">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./image.css" />
+    <title>
+        2024前瞻顯示科技落實於場域應用之創新專題實作競賽
+    </title>
+    <script src="./front.js"></script>
+</head>
+
+<body onload="handle_jump()">
+    <a style="position: fixed; bottom: 10px; right: 10px; z-index: 5;" id="back" onclick="to('page-title')"
+        href="javascript:void(0);">
+        <img src="./src/WEBB-03.png" style="width: 70px; z-index: 5;">
+    </a>
+    <div class="main-menu">
+        <div id="page-title">
+            <img src="./src/web-02.png" style="width: 265px;">
+            <div style="padding-left: 5px; font-size: 7.75px;">
+                <h1>2024 前瞻顯示科技落實於場域應用之</h1>
+                <br>
+                <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;創新專題實作競賽</h1>
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li><a id="j1" href="./Main.html">關於</a></li>
+            <li><a id="j2" href="./levy.html">徵件辦法</a></li>
+            <li><a href="./attend.html">線上報名</a></li>
+            <li onmouseover="switchMenu( this, 'submenu', 'MouseOver')" onmouseout="hideMenu()"><a id="j4"
+                    href="./spot.html">應用場域
+                </a>
+                <ul id="submenu" class="sub-menu" style="display:none;">
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">臺大實驗劇場</a></li>
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">師大美術館光影走廊</a></li>
+                    <li><a onclick="go_page('SU')" href="javascript:void(0);">成大智慧運動館及綠幕攝影棚</a></li>
+                    <li><a onclick="go_page('TUNA')" href="javascript:void(0);">北藝大科技藝術館</a></li>
+                    <li><a onclick="go_page('NTUA')" href="javascript:void(0);">南藝大漢寶德紀念館</a></li>
+                    <li><a onclick="go_page('SEM')" href="javascript:void(0);">科教館小黑盒劇場</a></li>
+                </ul>
+            </li>
+            <li onmouseover="switchMenu( this, 'submenu-2', 'MouseOver')" onmouseout="hideMenu()">
+                <a href="./workshop.html">工作坊</a>
+                <ul id="submenu-2" class="sub-menu" style="display:none;">
+                    <li><a href="./NTU.html">沉浸式投影展演實作工作坊</a></li>
+                    <li><a href="./NTNU.html">生成式AI圖像藝術工作坊</a></li>
+                    <li><a href="./SU.html">智慧科技顯示與運動場域工作坊</a></li>
+                    <li><a href="./TUNA.html">XR與多螢互動應用設計工作坊</a></li>
+                    <li><a href="./NTUA.html">光雕建築工作坊</a></li>
+                    <li><a href="./SEM.html">沉浸式聲響劇場光作坊</a></li>
+                </ul>
+            </li>
+            <li><a href="./news.html">最新消息</a></li>
+            <li><a href="./contact.html">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="article-title" id="spot">
+            <img src="./src/web png-18.png" alt="應用場域" style="width: 25%;">
+        </div>
+        <ul class="spot-list" style="margin-left: -50px; margin-bottom: 3%;">
+            <li><a id="s1" onclick="to('NTU')" href="javascript:void(0);">
+                    <img src="./src/4-04.png" style="width: 70%;">
+                    <br>
+                    臺大實驗劇場
+                </a></li>
+            <li><a id="s2" onclick="to('NTNU')" href="javascript:void(0);">
+                    <img src="./src/4-05.png" style="width: 70%;">
+                    <br>
+                    師大美術館光影走廊
+                </a></li>
+            <li><a id="s3" onclick="to('SU')" href="javascript:void(0);">
+                    <img src="./src/4-06.png" style="width: 70%;">
+                    <br>
+                    成大智慧運動館及綠幕攝影棚
+                </a></li>
+        </ul>
+        <ul class="spot-list" style="margin-bottom: 8%; padding-left: 100px;">
+            <li><a id="s4" onclick="to('TUNA')" href="javascript:void(0);">
+                    <img src="./src/4-07.png" style="width: 70%;">
+                    <br>
+                    北藝大科技藝術館
+                </a></li>
+            <li><a id="s5" onclick="to('NTUA')" href="javascript:void(0);">
+                    <img src="./src/4-08.png" style="width: 70%;">
+                    <br>
+                    南藝大漢寶德紀念館
+                </a></li>
+            <li><a id="s6" onclick="to('SEM')" href="javascript:void(0);">
+                    <img src="./src/4-09.png" style="width: 70%;">
+                    <br>科教館小黑盒劇場
+                </a></li>
+        </ul>
+        <div class="sub-title" id="NTU">
+            臺大實驗劇場
+        </div>
+        <div class="main-text" style="padding-top: 20px;">
+            <div style="padding-left: 1.25em; margin: 0;  width: 60%;" class="main-text z-index: 10;">
+                國立臺灣大學－虛實互動、跨域共作－未來展演場，以沉浸式投影空間之「實驗劇場」，提供創新設計及藝術文學領域實作之新型態虛實整合表演藝術應用，除應用於相關課程孵育未來的跨域設計人才，更可對外開放提供校內外師生嘗試使用前瞻技術的展演模式；亦將AR/VR技術與校內生農資源及光電顯示之相關成果結合，進行3D建模與VR數位內容建置，導入MR教育暨會議系統(為一套整合軟、硬體，具有透過網路將混合實境MR顯示效果進行即時播送或錄製回放的功能)，發揮跨域資源整合的創新共作虛實整合教學環境。
+                空間尺寸：寬5.5公尺、深5.5公尺，高度約5公尺，投影範圍為5.5 x 5.5 x 4.2 (公尺)
+                的白色投影區域，下舞台有電動浮光投影紗幕，劇場共配置6台7000流明雷射投影機，使之能進行前方、左、右、地板四面投影。
+            </div>
+            <img src="./src/4-04.png(1).png"
+                style="width: 39%; float: right; position: relative; bottom: 400px; left:3%; margin-bottom: -500px;">
+            <div>
+                <table class="demo-2" style="width: 59.5%; margin-top: 30px; margin-left: 20px;">
+                    <thead>
+                        <tr>
+                            <th class="first_col" style="font-size: 18px;">場域的軟硬體設備清單</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: justify;">硬體:
+                                <br>
+                                投影機型號: Optoma ZU720TST 7000流明 6臺、高階影像處理主機 (搭載RTX3090)
+                                1臺、視訊矩陣分配器
+                                GeoBox G406 1臺、訂製電動捲揚全像投影紗幕 1臺、the box pro Achat 110 M高音主喇叭 1臺、the box pro Achat 115
+                                Sub超低音喇叭 1臺、King Stage PDM-3500高音擴大機 1臺、King Stage PDM-7500低音擴大機 1臺、Mipro ACT 3系列手握無線麥克風
+                                1支、數位控台 Behringer x32 rack、類比控台 Soundcraft Notepad-12FX、紅外線感測器 Azure Kinect DK
+                                4個、VR頭戴式裝置 HTC VIVE XR ELITE 1臺、 VR頭戴式裝置 Meta QUEST2 1臺、BENEVO 15M USB 3.0訊號增益延長線 1條、
+                                BENEVO 10M
+                                USB 3.0訊號增益延長線 1條
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <img src="./src/4-05(1).png"
+            style="width: 38%; float: left; position: relative; top: 50px; right: 50px; margin-right: 20px;">
+        <div class="sub-title" style="padding-top: 90px;" id="NTNU">
+            師大美術館光影走廊
+        </div>
+        <div class="main-text" style="padding-top: 20px;">
+            <div style=" margin: 0;  width: 97%;" class="main-text z-index: 10;">
+                師大美術館光影走廊致力於典藏數位轉向實驗，以沉浸式展演空間加速藝術與科技交融，由國立臺灣師範大學跨域科技產業創新研究學院、師大美術館、科技與工程學院、藝術學院合作建置，在教育部前瞻顯示科技導入藝術場域建置與推廣計畫的兩期支持之下，典藏數位、人才培育與師生實驗在此共生。
+                <br>
+                獨特的長廊空間具一緩坡面，透過六面投影創造多變的光影互動與感官體驗，藉全沉浸投影、雷達、紅外線攝影機及Kinect等硬體支持創新製作。光影走廊期待與您一起在美感鑑賞與數據演算交接處，探索元宇宙美術館的新力量。
+            </div>
+        </div>
+        <div>
+            <table class="demo-2" style="width: 55%; margin-top: 30px; margin-left: 50px;">
+                <thead>
+                    <tr>
+                        <th class="first_col" style="font-size: 18px;">場域的軟硬體設備清單</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align: justify;">硬體:
+                            <br>
+                            投影機 OPTOMA ZU620TST 雷射短焦投
+                            影機 11臺、投影機 OPTOMA ZU500USTe
+                            超短焦投影機 3臺、主機(控制互動) 2臺(Intel i7-12700【12 核/20 緒】)、主機(控制投影) 2臺(Intel i7-12700【12 核/20 緒】)、
+                            混音器PHONIC AM440D 1臺、等化器PHONIC GEQ3102F 1臺、擴大機 3臺、喇叭 8臺、電源時序開關 1臺、雷達 2臺、紅外線攝影機 1臺、體感 Azure
+                            Kinect 2臺、影像分割器GeoBox G406 4臺
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: justify;">軟體:
+                            <br>
+                            拼接軟體Resolume Arena 1臺、基本給檔:一部影片(mov,DXV 編碼)、六部影片(mov,DXV 編碼)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="sub-title" style="padding-top: 120px;" id="SU">
+            成大智慧運動館及綠幕攝影棚
+        </div>
+        <div class="main-text" style="top: 20px;">
+            <div style="padding-left: 1.25em; margin: 0;  width: 60%;" class="main-text z-index: 10;">
+                智慧體育館(中正堂)：擁有P2 LED大螢幕與八支高畫質攝影機及其周邊
+                軟硬體建置，提供多角度高畫質回放畫面，因應多類運動、情境與場合
+                等客製設定，除了將 P2LED大螢幕效果發揮極致，讓現場觀眾獲得身歷
+                其境的沉浸式視覺饗宴 回放系統的功能 可讓 現場觀眾 回顧 比賽的精采
+                片段 另外 在體育教學 運用也可以取代 傳統白板與戰術板的框架限制，
+                以大螢幕搭配平板人性化之操作，讓傳統體育教學 模式 增添生動之回饋 。
+                數位虛擬攝影棚：動態攝影棚為綠幕空間，搭配導播機系統等相關設備
+                建構虛實整合之教學與研究環境， 輔助 智慧體育館 (中正堂 )製作直播節
+                目，如體育賽事轉播、運動表演轉播等 更 結合人體姿態動作擷取與分
+                析，將數據傳輸到機械上，讓機械進行移動、執行動作，製作出虛實整
+                合之畫面效果。
+            </div>
+            <img src="./src/4-06..png"
+                style="width: 39%; float: right; position: relative; bottom: 470px;  left:3%; margin-bottom: -470px;">
+            <div>
+                <table class="demo-2" style="width: 59.5%; margin-top: 30px; margin-left: 20px;">
+                    <thead>
+                        <tr>
+                            <th class="first_col" style="font-size: 18px;">場域的軟硬體設備清單</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: justify;">硬體:
+                                <br>
+                                智慧體育館(中正堂) : PTZ Camera、4K NDI & 3G-SDI POV Camera、16 埠 Giga PoE 交換器、5G
+                                WIFI 分享器、視訊調整矩陣器、視訊 PIP 矩陣器、NDI to HDMI 轉接器、PC(i7)、PC(i7) NAS、
+                                12 串流 WiFi 6 智能分享器、4TB SSD2.5 吋 NAS 固態硬碟
+                                <br>
+                                數位虛擬攝影棚 : 無線麥克風、指向性麥克風、導播機、混音器
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <img src="./src/4-07(1).png"
+            style="width: 37%; float: left; position: relative; right: 10px;  margin-right: 20px; top:50px;">
+        <div class="sub-title" id="TUNA" style="padding-top: 150px;">
+            北藝大科技藝術館
+        </div>
+        <div class="main-text">
+            <div style="left: 20px; margin: 0;  width: 96%;" class="main-text z-index: 10;">
+                北藝大自2011年起著手籌劃臺灣首座科技藝術館，歷經朱宗慶、楊其文、陳愷璜三任校長的推動與努力，業於2023年10月正式啟用。本館未來將以前衛、實驗、跨域與連結為實踐理念，扮演科技藝術與跨領域藝術創作、研發、展演的基地，推動產學合作，展開具當代性與未來性的科技藝術新維度。在此計畫中，科技藝術館除了將提供一樓的兩個空間，Studio
+                1與Studio 2，作為VR/AR/XR與多螢互動等技術之示範場域外，也將提供五樓實驗室讓參與競賽的學生團隊得以進行前端顯示科技之實驗。
+                （Studio 1: 長21米 x 寬8.8米 x 高3.6米；Studio 2: 長10米 x 寬9.25米 x 高3.8米)
+            </div>
+        </div>
+        <div style="left: 20px; width: 95%;">
+            <table class="demo-2" style="width: 58%; margin-top: 30px; margin-left: 50px;">
+                <thead>
+                    <tr>
+                        <th class="first_col" style="font-size: 18px;">場域的軟硬體設備清單</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align: justify;">硬體:
+                            <br>
+                            投影機型號: VIVItek DU4771Z-WH 2臺、投影機型號: EPSON EB-L255F 12臺、投影機型號:
+                            Optoma
+                            OPX4010 3臺、投影機型號: OPTOMA EP739H 4臺、智能軌道燈 30顆、無線調光變焦軌道燈、 LFAmini煙機
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="sub-title" style="padding-top: 120px;" id="NTUA">
+            南藝大漢寶德紀念館
+        </div>
+        <div class="main-text" style="padding-top: 20px;">
+            <div style="padding-left: 1.25em; margin: 0;  width: 60%;" class="main-text z-index: 10;">
+                漢寶德紀念館以「a cube within a
+                cube」為概念發想，外部利用純粹幾何之清水混凝土正方量體，內部由景觀水池上和緩的踏階至正方體側面進入建築。空間中可以看到自然光透過天窗與外牆開口灑落的光線，光影交錯照映在各處，營造出空間戲劇氛圍。此紀念館之二樓有一個挑高13.5公尺的展示空間，利用兩台10000
+                流明的短焦投影機，融接成一個大型的投影畫面，可用來作為沉浸式顯示科技與元宇宙虛擬人之應用及示範。
+            </div>
+            <img src="./src/4-08(1).png"
+                style="width: 40%; float: right; position: relative; bottom: 380px;  left:3%; margin-bottom: -380px;">
+        </div>
+        <img src="./src/4-09(1).png"
+            style="width: 39%; float: left; position: relative; right: 10px;  margin-right: -10px; top: 50px;">
+        <div class="sub-title" id="SEM" style="padding-top:180px;">
+            科教館小黑盒劇場
+        </div>
+        <div class="main-text" style="padding-top: 20px;">
+            <div style="left: 25px; margin: 0;  width: 90%;" class="main-text z-index: 10;">
+                國立台灣科學教育館(NTSEC)為推動科學教育，以及前瞻顯示科技與藝術之結合，最近於地下一樓與地下二樓的空間，打造一個新型態的沉浸式小黑盒劇場。以9 台牆面投影機和9 台地面投影機，融接成寬近13
+                公尺、深7 公尺、高7 公尺的L 型投影畫面，可做多視窗分割，整體解析度最高可達12K。牆面遍佈64 顆5 寸被動式同軸喇叭和放置於地面的6 顆18 寸被動式重低音喇叭，組成64.6
+                聲道全景聲環繞(Ambisonic)系統。音響與視訊系統串連，合而為一沉浸式聲音與影像的展演空間。搭配完整劇場燈光，吊桿等系統，具國內沈浸式劇場系統最高規格。並與國立台南藝術大學聲響科技研究所及文化資產研創中心，成立沈浸影音實驗室，設有影像工作室及聲音工作室，以提供國內外創作者學習及創作使用，讓創作者得以高規格之影音設備，提升創作品質。
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

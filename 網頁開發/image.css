@@ -1,0 +1,42 @@
+#main-vision {
+    padding-top: 2.5em;
+}
+
+#page-title {
+    text-decoration: none;
+    margin-left: 1%;
+    margin-top: 1.5%;
+}
+
+#page-title div {
+    line-height: 0;
+    padding-left: 5px;
+    font-size: 8.5px;
+}
+
+#meta-display {
+    margin-left: 3.5%;
+    margin-right: 5%;
+    width: 91%;
+}
+
+#work-2024 {
+    margin-left: 4%;
+    padding-right: 2%;
+    width: 52.5%;
+}
+
+#box_container1 {
+    width: 40%;
+}
+
+#search {
+    margin-left: 3%;
+    width: 90%;
+}
+
+#date {
+    top: 0;
+    margin-left: 7%;
+    width: 80%;
+}

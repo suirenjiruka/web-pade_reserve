@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="2024競賽, 前瞻顯示, 資訊競賽">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./image.css" />
+    <title>
+        2024前瞻顯示科技落實於場域應用之創新專題實作競賽
+    </title>
+    <script src="./front.js"></script>
+</head>
+
+<body>
+    <a style="position: fixed; bottom: 10px; right: 10px; z-index: 5;" id="back" onclick="to('page-title')"
+        href="javascript:void(0);">
+        <img src="./src/WEBB-03.png" style="width: 70px; z-index: 5;">
+    </a>
+    <div class="main-menu">
+        <div id="page-title" href="./Main.html">
+            <img src="./src/web-02.png" style="width: 265px;">
+            <div style="padding-left: 5px; font-size: 7.75px;">
+                <h1>2024 前瞻顯示科技落實於場域應用之</h1>
+                <br>
+                <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;創新專題實作競賽</h1>
+            </div>
+        </div>
+        <div class="image-container" id="main-vision">
+            <img src="./src/web-02.png" id="meta-display">
+            <img src="./src/web-03.png" id="work-2024">
+            <div class="image-container" id=box_container1>
+                <img src="./src/WEBB-02.png" id="search">
+                <img src="./src/web-05.png" id="date">
+            </div>
+            <div>
+                <div style="font-size: 55px; padding-left: 5%; width: 100%; font-weight: 900;">
+                    鉑金獎獎金10萬元 / 競賽總獎金65萬元
+                </div>
+                <br>
+                <div class="text-container">
+                    <div style="display: flex; align-items: flex-end;">
+                        <h1>指導單位</h1>
+                        <h1 style="font-size: 18px; font-weight: 900; margin-bottom: 20px; padding-left: 10px;">
+                            教育部</h1>
+                    </div>
+                    <div style="display: flex; align-items: flex-end; padding-left: 3%;">
+                        <h1>主辦單位</h1>
+                        <h1 style="font-size: 18px; font-weight: 900; margin-bottom: 20px; padding-left: 10px;">
+                            國立臺北藝術大學</h1>
+                    </div>
+                    <div style="display: flex; align-items: flex-end; padding-left: 3%; width: 45%;">
+                        <h1>協辦單位</h1>
+                        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; width: 69%; padding-left: 10px; line-height: 30%; margin-bottom: 10px;"
+                            ;>
+                            <h1 style=" font-size: 15px; font-weight: 900; ">
+                                國立臺灣大學</h1>
+                            <h1 style=" font-size: 15px; font-weight: 900; margin-left:5px;">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;國立臺灣師範大學</h1>
+                            <h1 style="font-size: 15px; font-weight: 900; margin-right: 30px;">
+                                國立成功大學</h1>
+                            <h1 style="font-size: 15px; font-weight: 900; ">
+                                國立臺南藝術大學</h1>
+                            <h1 style="font-size: 15px; font-weight: 900; ">
+                                &nbsp;&nbsp;&nbsp;國立臺灣科學教育館</h1>
+                            <h1 style="font-size: 15px; font-weight: 900;">
+                                臺灣科技藝術學會</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li><a id="j1" href="./Main.html">關於</a></li>
+            <li><a id="j2" href="./levy.html">徵件辦法</a></li>
+            <li><a href="./attend.html">線上報名</a></li>
+            <li onmouseover="switchMenu( this, 'submenu', 'MouseOver')" onmouseout="hideMenu()"><a id="j4"
+                    href="./spot.html">應用場域
+                </a>
+                <ul id="submenu" class="sub-menu" style="display:none;">
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">臺大實驗劇場</a></li>
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">師大美術館光影走廊</a></li>
+                    <li><a onclick="go_page('SU')" href="javascript:void(0);">成大智慧運動館及綠幕攝影棚</a></li>
+                    <li><a onclick="go_page('TUNA')" href="javascript:void(0);">北藝大科技藝術館</a></li>
+                    <li><a onclick="go_page('NTUA')" href="javascript:void(0);">南藝大漢寶德紀念館</a></li>
+                    <li><a onclick="go_page('SEM')" href="javascript:void(0);">科教館小黑盒劇場</a></li>
+                </ul>
+            </li>
+            <li onmouseover="switchMenu( this, 'submenu-2', 'MouseOver')" onmouseout="hideMenu()">
+                <a href="./workshop.html">工作坊</a>
+                <ul id="submenu-2" class="sub-menu" style="display:none;">
+                    <li><a href="./NTU.html">沉浸式投影展演實作工作坊</a></li>
+                    <li><a href="./NTNU.html">生成式AI圖像藝術工作坊</a></li>
+                    <li><a href="./SU.html">智慧科技顯示與運動場域工作坊</a></li>
+                    <li><a href="./TUNA.html">XR與多螢互動應用設計工作坊</a></li>
+                    <li><a href="./NTUA.html">光雕建築工作坊</a></li>
+                    <li><a href="./SEM.html">沉浸式聲響劇場光作坊</a></li>
+                </ul>
+            </li>
+            <li><a href="./news.html">最新消息</a></li>
+            <li><a href="./contact.html">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div class="section" style="padding-top: 2%;">
+        <div class="article-title" id="about">
+            <img src="./src/web png-24.png" alt="計畫獎金" style="width: 25%;">
+        </div>
+        <div
+            style="font-size: 48px; font-weight: 700; line-height: 170%;margin: 0.5em; position: absolute; padding-left: 20px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鉑金獎1隊
+            獎金10萬
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金獎2隊 獎金各8萬
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;銀獎3隊 獎金各6萬
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;銀獎6隊 獎金各3萬
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;最佳展示獎1隊 獎金3萬
+        </div>
+        <div style="width: 220px; padding-left: 630px">
+            <img src="./src/web png-15.png" style="width: 100%;">
+        </div>
+        <div style="width: 1px; height: 1px;">
+            <img src="./src/web png-12.png" alt="決選12隊" class="search_bar">
+            <br>
+            <img src="./src/web png-13.png" alt="總獎金65萬" class="search_bar">
+        </div>
+    </div>
+    <div class="section">
+        <div class="article-title" id="schedule">
+            <img src="./src/web png-23.png" alt="競賽時程表" style="width: 25%;">
+        </div>
+        <div
+            style="width: 90%; margin-top: 3em; padding-left: 10px; background-color:transparent; position: absolute;  display: -webkit-box;">
+            <div class="schedule_text">
+                競賽徵件
+                <br>
+                3/15-5/15
+            </div>
+            <div class="schedule_text" style="bottom: 20px;">
+                複選
+                <br>
+                團隊簡報
+                <br>
+                6/28
+            </div>
+            <div class="schedule_text" style="bottom: 20px; padding-left: 3px;">
+                決選團隊
+                <br>
+                場域輔導
+                <br>
+                7月-9月
+            </div>
+            <div class="schedule_text" style="bottom: 20px; padding-left: 3px;">
+                決選結果
+                <br>
+                公布
+                <br>
+                10/31
+            </div>
+        </div>
+        <div
+            style="width: 90%; margin-top: 13em; margin-left: -154px; background-color:transparent; position: absolute;  display: -webkit-box;">
+            <div class="schedule_text">
+                場域
+                <br>
+                工作坊
+                <br>
+                2/25-3/10
+            </div>
+            <div class="schedule_text">
+                初選結果
+                <br>
+                公布
+                <br>
+                6/15
+            </div>
+            <div class="schedule_text" style="padding-left: 4px;">複選
+                <br>
+                結果公布
+                <br>
+                6/30
+            </div>
+            <div class="schedule_text" style="padding-left: 2px;">決選
+                <br>
+                實地展示
+                <br>
+                10月
+            </div>
+            <div class="schedule_text" style="margin-left: 215px;">頒獎活動
+                <br>
+                及成果展示
+                <br>
+                11/9
+            </div>
+        </div>
+        <img src="./src/web png (1).png" style="width: 1550px; padding: 5em; padding-left: 10px; ">
+    </div>
+</body>
+
+
+</html>
