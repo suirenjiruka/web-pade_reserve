@@ -2,8 +2,8 @@ body,
 div {
     position: relative;
     line-height: 120%;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     display: block;
     font-size: 18px;
     font-family: "蘋果儷中黑", "Helvetica Neue", Helvetica, "Roboto", Arial, "Apple LiGothic Medium", sans-serif;
@@ -14,7 +14,6 @@ div {
 body {
     background-color: #57EC00;
     display: flex;
-    width: 100%;
     max-width: 1500px;
     flex-direction: column;
     padding-bottom: 30px;
@@ -23,7 +22,7 @@ body {
 
 .main-menu {
     margin-bottom: 10px;
-    min-width: 1250px;
+    width: 100%;
 }
 
 
@@ -33,7 +32,7 @@ body {
     align-items: flex-start;
     align-content: flex-start;
     line-height: 0;
-    width: 100%;
+    max-width: 100%;
 }
 
 .text-container {
@@ -41,8 +40,8 @@ body {
     margin-top: 0.5%;
     display: flex;
     justify-content: flex-end;
-    margin-left: 7.5%;
-    width: 100%;
+    margin-left: 14%;
+    max-width: 85%;
 }
 
 .menu-list {
@@ -111,7 +110,7 @@ body {
 .spot-list {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    max-width: 90%;
     justify-content: space-around;
     list-style: none;
     margin-block-start: 1em;
@@ -125,7 +124,7 @@ body {
 }
 
 .spot-list li {
-    width: 30%;
+    max-width: 30%;
     float: left;
     padding-left: 1em;
     vertical-align: top;
@@ -144,7 +143,6 @@ body {
 .section {
     width: 100%;
     margin-top: 1em;
-    min-width: 1250px;
 }
 
 .article-title {
@@ -163,18 +161,19 @@ body {
 }
 
 .main-text {
-    font-size: 18px;
+    font-size: 1.25vw;
     margin-inline-start: 100px;
-    width: 90%;
+    max-width: 90%;
     line-height: 2em;
     text-align: justify;
     margin-bottom: 0;
     padding-top: 10px;
+    padding-right: 3vw;
 }
 
 .image_text {
     position: absolute;
-    width: fit-content;
+    max-width: fit-content;
     left: 67%;
     top: 3em;
     background-color: transparent;
@@ -183,27 +182,27 @@ body {
 
 .search_bar {
     position: relative;
-    width: 500px;
+    max-width: 37%;
     height: auto;
-    padding-left: 875px;
-    bottom: 19em;
+    padding-left: 57%;
+    bottom: 22.5vw;
 }
 
 .schedule_text {
-    margin-left: 225px;
-    font-size: 24px;
+    margin-left: 14.5vw;
+    font-size: 1.6vw;
     font-weight: 700;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 4.5vw;
 }
 
 
 .demo {
     border: 2px double rgb(41, 67, 55);
     border-collapse: collapse;
-    width: 65%;
+    max-width: 65%;
     line-height: 1.5em;
-    font-size: 20px;
+    font-size: 1.4vw;
     margin-left: 19.5%;
     padding: 5px;
 }
@@ -223,9 +222,9 @@ body {
 .demo-2 {
     border: 2px double rgb(41, 67, 55);
     border-collapse: collapse;
-    width: 65%;
+    max-width: 65%;
     line-height: 1.5em;
-    font-size: 14px;
+    font-size: 0.95vw;
     margin-left: 19.5%;
     padding: 5px;
 }

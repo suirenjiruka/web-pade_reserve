@@ -17,26 +17,26 @@
 #meta-display {
     margin-left: 3.5%;
     margin-right: 5%;
-    width: 91%;
+    max-width: 91%;
 }
 
 #work-2024 {
     margin-left: 4%;
     padding-right: 2%;
-    width: 52.5%;
+    max-width: 52.5%;
 }
 
 #box_container1 {
-    width: 40%;
+    max-width: 40%;
 }
 
 #search {
     margin-left: 3%;
-    width: 90%;
+    max-width: 90%;
 }
 
 #date {
     top: 0;
     margin-left: 7%;
-    width: 80%;
+    max-width: 80%;
 }
