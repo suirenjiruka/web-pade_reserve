@@ -192,6 +192,7 @@ body {
 }
 
 .schedule_text {
+    max-width: 35%;
     padding: 0;
     margin: 0;
     padding-left: 42%;
@@ -253,7 +254,7 @@ body {
 
 .newsline {
     color: black;
-    margin-left: -1%;
+    margin-left: -0.5%;
     font-size: 1.85vw;
 }
 
