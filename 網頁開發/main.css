@@ -1,0 +1,258 @@
+body,
+div {
+    position: relative;
+    line-height: 120%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 18px;
+    font-family: "蘋果儷中黑", "Helvetica Neue", Helvetica, "Roboto", Arial, "Apple LiGothic Medium", sans-serif;
+    font-weight: 550;
+    color: black;
+}
+
+body {
+    background-color: #57EC00;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+.main-menu {
+    margin-bottom: 10px;
+    min-width: 1250px;
+}
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    line-height: 0;
+    width: 100%;
+}
+
+.text-container {
+    font-size: 20px;
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 8%;
+    width: 100%;
+}
+
+.menu-list {
+    overflow: visible;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1em;
+}
+
+
+
+.menu-list {
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 2em;
+    padding-right: 3em;
+    padding-inline-start: 0px;
+}
+
+.menu-list li {
+    float: left;
+    vertical-align: top;
+}
+
+.menu-list a {
+    display: block;
+    padding: 4px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-list :hover {
+    color: rgb(4, 122, 28);
+}
+
+.sub-menu {
+    overflow: visible;
+    list-style: none;
+    position: absolute;
+    padding-left: 0;
+    margin-top: 0;
+    top: 1.5em;
+    z-index: 3;
+    background-color: #57EC00;
+}
+
+.sub-menu li {
+    float: none;
+    border-collapse: collapse;
+    border: 2px double #048b38;
+}
+
+.sub-menu a {
+    font-size: 14px;
+}
+
+.sub-menu :hover {
+    color: rgb(4, 122, 28);
+}
+
+.spot-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 2em;
+}
+
+.spot-list :hover {
+    color: rgb(4, 122, 28);
+}
+
+.spot-list li {
+    width: 30%;
+    float: left;
+    padding-left: 1em;
+    vertical-align: top;
+    text-align: center;
+}
+
+.spot-list a {
+    display: block;
+    padding: 4px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.section {
+    width: 100%;
+    margin-top: 1em;
+    min-width: 1250px;
+}
+
+.article-title {
+    font-size: 50px;
+}
+
+.sub-title {
+    font-size: 35px;
+    margin-inline-start: 100px;
+    margin-top: 1em;
+}
+
+.small-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.main-text {
+    font-size: 18px;
+    margin-inline-start: 100px;
+    width: 90%;
+    line-height: 2em;
+    text-align: justify;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.image_text {
+    position: absolute;
+    width: fit-content;
+    left: 67%;
+    top: 3em;
+    background-color: transparent;
+    font-size: 125vmin;
+}
+
+.search_bar {
+    position: relative;
+    width: 500px;
+    height: auto;
+    padding-left: 875px;
+    bottom: 19em;
+}
+
+.schedule_text {
+    margin-left: 225px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3em;
+}
+
+
+.demo {
+    border: 2px double rgb(41, 67, 55);
+    border-collapse: collapse;
+    width: 65%;
+    line-height: 1.5em;
+    font-size: 20px;
+    margin-left: 19.5%;
+    padding: 5px;
+}
+
+.demo th {
+    border: 2px double rgb(41, 67, 55);
+    padding: 5px;
+    background: #57EC00;
+}
+
+.demo td {
+    border: 2px double rgb(41, 67, 55);
+    padding: 5px;
+    background: #57EC00;
+}
+
+.demo-2 {
+    border: 2px double rgb(41, 67, 55);
+    border-collapse: collapse;
+    width: 65%;
+    line-height: 1.5em;
+    font-size: 14px;
+    margin-left: 19.5%;
+    padding: 5px;
+}
+
+.demo-2 th {
+    border: 2px double rgb(41, 67, 55);
+    padding: 5px;
+    background: #57EC00;
+}
+
+.demo-2 td {
+    border: 2px double rgb(41, 67, 55);
+    padding: 5px;
+    background: #57EC00;
+}
+
+.first_col {
+    text-align: center;
+}
+
+.newsline {
+    color: black;
+    margin-left: -10px;
+    font-size: 26px;
+}
+
+.new-sub-title {
+    font-size: 18px;
+    margin-inline-start: 86px;
+    margin-top: 1em;
+}
