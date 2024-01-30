@@ -5,7 +5,7 @@ div {
     margin: 0 auto;
     padding: 0 auto;
     display: block;
-    font-size: 18px;
+    font-size: 1.2vw;
     font-family: "蘋果儷中黑", "Helvetica Neue", Helvetica, "Roboto", Arial, "Apple LiGothic Medium", sans-serif;
     font-weight: 550;
     color: black;
@@ -21,7 +21,7 @@ body {
 
 
 .main-menu {
-    margin-bottom: 10px;
+    margin-bottom: 1.2vh;
     width: 100%;
 }
 
@@ -40,7 +40,7 @@ body {
     margin-top: 0.5%;
     display: flex;
     justify-content: flex-end;
-    margin-left: 14%;
+    margin-left: 13%;
     max-width: 85%;
 }
 
@@ -91,6 +91,7 @@ body {
     top: 1.5em;
     z-index: 3;
     background-color: #57EC00;
+    height: auto;
 }
 
 .sub-menu li {
@@ -132,16 +133,17 @@ body {
 }
 
 .spot-list a {
+    max-width: 100%;
     display: block;
     padding: 4px;
     border: 1px solid transparent;
-    font-size: 20px;
+    font-size: 1.35vw;
     color: black;
     text-decoration: none;
 }
 
 .section {
-    width: 100%;
+    max-width: 100%;
     margin-top: 1em;
 }
 
@@ -150,19 +152,19 @@ body {
 }
 
 .sub-title {
-    font-size: 35px;
-    margin-inline-start: 100px;
+    font-size: 2.3vw;
+    margin-inline-start: 6.6%;
     margin-top: 1em;
 }
 
 .small-title {
     font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 0.66vw;
 }
 
 .main-text {
     font-size: 1.25vw;
-    margin-inline-start: 100px;
+    margin-inline-start: 6.6%;
     max-width: 90%;
     line-height: 2em;
     text-align: justify;
@@ -201,7 +203,8 @@ body {
     border: 2px double rgb(41, 67, 55);
     border-collapse: collapse;
     max-width: 65%;
-    line-height: 1.5em;
+    width: 65%;
+    line-height: 3.25vh;
     font-size: 1.4vw;
     margin-left: 19.5%;
     padding: 5px;

@@ -10,8 +10,8 @@
 
 #page-title div {
     line-height: 0;
-    padding-left: 5px;
-    font-size: 8.5px;
+    padding-left: 0.33%;
+    font-size: 0.6vw;
 }
 
 #meta-display {
