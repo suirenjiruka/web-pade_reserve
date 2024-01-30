@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="2024競賽, 前瞻顯示, 資訊競賽">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./image.css" />
+    <title>
+        2024前瞻顯示科技落實於場域應用之創新專題實作競賽
+    </title>
+    <script src="./front.js"></script>
+</head>
+
+<body>
+    <a style="position: fixed; bottom: 10px; right: 10px; z-index: 5;" id="back" onclick="to('page-title')"
+        href="javascript:void(0);">
+        <img src="./src/WEBB-03.png" style="width: 70px; z-index: 5;">
+    </a>
+    <div class="main-menu">
+        <div id="page-title">
+            <img src="./src/web-02.png" style="width: 265px;">
+            <div style="padding-left: 5px; font-size: 7.75px;">
+                <h1>2024 前瞻顯示科技落實於場域應用之</h1>
+                <br>
+                <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;創新專題實作競賽</h1>
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li><a id="j1" href="./index.html">關於</a></li>
+            <li><a id="j2" href="./levy.html">徵件辦法</a></li>
+            <li><a href="./attend.html">線上報名</a></li>
+            <li onmouseover="switchMenu( this, 'submenu', 'MouseOver')" onmouseout="hideMenu()"><a id="j4"
+                    href="./spot.html">應用場域
+                </a>
+                <ul id="submenu" class="sub-menu" style="display:none;">
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">臺大實驗劇場</a></li>
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">師大美術館光影走廊</a></li>
+                    <li><a onclick="go_page('SU')" href="javascript:void(0);">成大智慧運動館及綠幕攝影棚</a></li>
+                    <li><a onclick="go_page('TUNA')" href="javascript:void(0);">北藝大科技藝術館</a></li>
+                    <li><a onclick="go_page('NTUA')" href="javascript:void(0);">南藝大漢寶德紀念館</a></li>
+                    <li><a onclick="go_page('SEM')" href="javascript:void(0);">科教館小黑盒劇場</a></li>
+                </ul>
+            </li>
+            <li onmouseover="switchMenu( this, 'submenu-2', 'MouseOver')" onmouseout="hideMenu()">
+                <a href="./workshop.html">工作坊</a>
+                <ul id="submenu-2" class="sub-menu" style="display:none;">
+                    <li><a href="./NTU.html">沉浸式投影展演實作工作坊</a></li>
+                    <li><a href="./NTNU.html">生成式AI圖像藝術工作坊</a></li>
+                    <li><a href="./SU.html">智慧科技顯示與運動場域工作坊</a></li>
+                    <li><a href="./TUNA.html">XR與多螢互動應用設計工作坊</a></li>
+                    <li><a href="./NTUA.html">光雕建築工作坊</a></li>
+                    <li><a href="./SEM.html">沉浸式聲響劇場光作坊</a></li>
+                </ul>
+            </li>
+            <li><a href="./news.html">最新消息</a></li>
+            <li><a href="./contact.html">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="article-title" id="attend">
+            <img src="./src/web png-29.png" alt="線上報名" style="width: 25%;">
+        </div>
+        <div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScMLKgtfyV2od6_5Cf6iAOTFED8sWrtR_Qyc25hg7ksvJOf_g/formResponse"
+                style="text-decoration: none;">
+                <img src="./src/web png.png" style=" margin-left:31%; width:40%; margin-top: 1%;">
+            </a>
+        </div>
+        <div class="main-text" style="padding-top: 20px; text-align: center; font-size: 22px;">
+            如無法正常開啟，請點選以下連結:
+            <br>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScMLKgtfyV2od6_5Cf6iAOTFED8sWrtR_Qyc25hg7ksvJOf_g/formResponse"
+                style="text-decoration: none; color:black; font-size: 25px; margin-left: -40px;">
+                https://docs.google.com/forms/d/e/formResponse
+            </a>
+            <br>
+            <br>
+            <div style="font-size: 18px;">
+                採網路報名
+                <br>
+                報名期間:113年3月15日起至113年5月15日，晚上23:59截止
+                <br>
+                (依網路表單收件時間為準)
+            </div>
+
+        </div>
+</body>
+
+</html>

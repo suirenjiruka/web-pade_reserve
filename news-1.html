@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="2024競賽, 前瞻顯示, 資訊競賽">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./image.css" />
+    <title>
+        2024前瞻顯示科技落實於場域應用之創新專題實作競賽
+    </title>
+    <script src="./front.js"></script>
+</head>
+
+<body>
+    <a style="position: fixed; bottom: 10px; right: 10px; z-index: 5;" id="back" onclick="to('page-title')"
+        href="javascript:void(0);">
+        <img src="./src/WEBB-03.png" style="width: 70px; z-index: 5;">
+    </a>
+    <div class="main-menu">
+        <div id="page-title">
+            <img src="./src/web-02.png" style="width: 265px;">
+            <div style="padding-left: 5px; font-size: 7.75px;">
+                <h1>2024 前瞻顯示科技落實於場域應用之</h1>
+                <br>
+                <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;創新專題實作競賽</h1>
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li><a id="j1" href="./index.html">關於</a></li>
+            <li><a id="j2" href="./levy.html">徵件辦法</a></li>
+            <li><a href="./attend.html">線上報名</a></li>
+            <li onmouseover="switchMenu( this, 'submenu', 'MouseOver')" onmouseout="hideMenu()"><a id="j4"
+                    href="./spot.html">應用場域
+                </a>
+                <ul id="submenu" class="sub-menu" style="display:none;">
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">臺大實驗劇場</a></li>
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">師大美術館光影走廊</a></li>
+                    <li><a onclick="go_page('SU')" href="javascript:void(0);">成大智慧運動館及綠幕攝影棚</a></li>
+                    <li><a onclick="go_page('TUNA')" href="javascript:void(0);">北藝大科技藝術館</a></li>
+                    <li><a onclick="go_page('NTUA')" href="javascript:void(0);">南藝大漢寶德紀念館</a></li>
+                    <li><a onclick="go_page('SEM')" href="javascript:void(0);">科教館小黑盒劇場</a></li>
+                </ul>
+            </li>
+            <li onmouseover="switchMenu( this, 'submenu-2', 'MouseOver')" onmouseout="hideMenu()">
+                <a href="./workshop.html">工作坊</a>
+                <ul id="submenu-2" class="sub-menu" style="display:none;">
+                    <li><a href="./NTU.html">沉浸式投影展演實作工作坊</a></li>
+                    <li><a href="./NTNU.html">生成式AI圖像藝術工作坊</a></li>
+                    <li><a href="./SU.html">智慧科技顯示與運動場域工作坊</a></li>
+                    <li><a href="./TUNA.html">XR與多螢互動應用設計工作坊</a></li>
+                    <li><a href="./NTUA.html">光雕建築工作坊</a></li>
+                    <li><a href="./SEM.html">沉浸式聲響劇場光作坊</a></li>
+                </ul>
+            </li>
+            <li><a href="./news.html">最新消息</a></li>
+            <li><a href="./contact.html">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="article-title" id="news">
+            <img src="./src/web png-26.png" alt="最新消息"
+                style="width: 25%; display: inline-block; margin-bottom: -20px;;">
+        </div>
+        <div class="main-text" style="padding-top: 5px;;">
+            自2月25日開始，六場域工作坊即將展開，千萬不要錯過以下的精采活動 :
+        </div>
+        <div class="new-sub-title" style="padding-top: 5px;">
+            • 智慧科技顯示與運動場域工作坊
+        </div>
+        <div class="main-text" style="font-size: 14px;">
+            日期 : 2024/2/25 (日)
+            &nbsp;&nbsp;
+            地點 : 國立成功大學
+        </div>
+        <div class="new-sub-title" style="padding-top: 10px;">
+            • 生成式AI圖像藝術工作坊
+        </div>
+        <div class="main-text" style="font-size: 14px;">
+            日期 : 2024/3/2 &ensp;(六)
+            &nbsp;&nbsp;
+            地點 : 國立臺灣師範大學
+        </div>
+        <div class="new-sub-title" style="padding-top: 10px;">
+            • 沉浸式投影展演實作工作坊
+        </div>
+        <div class="main-text" style="font-size: 14px;">
+            日期 : 2024/3/3 &ensp;(日)
+            &nbsp;&nbsp;
+            地點 : 國立臺灣大學
+        </div>
+        <div class="new-sub-title" style="padding-top: 10px;">
+            • 沉浸式聲響劇場工作坊
+        </div>
+        <div class="main-text" style="font-size: 14px;">
+            日期 : 2024/3/4 &ensp;(一)
+            &nbsp;&nbsp;
+            地點 : 國立臺灣科學教育館
+        </div>
+        <div class="new-sub-title" style="padding-top: 10px;">
+            • XR與多螢互動應用設計工作坊
+        </div>
+        <div class="main-text" style="font-size: 14px;">
+            日期 : 2024/3/9 &ensp;(六)
+            &nbsp;&nbsp;
+            地點 : 國立臺北藝術大學
+        </div>
+        <div class="new-sub-title" style="padding-top: 10px;">
+            • 光雕建築工作坊
+        </div>
+        <div class="main-text" style="font-size: 14px;">
+            日期 : 2024/3/10 (日)
+            &nbsp;&nbsp;
+            地點 : 國立台南藝術大學
+        </div>
+        <br>
+        <br>
+        <br>
+        <div style="padding-left: 100px;">更多詳請請點選「工作坊」查看更多資訊。</div>
+    </div>
+</body>
+
+</html>

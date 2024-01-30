@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="2024競賽, 前瞻顯示, 資訊競賽">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./image.css" />
+    <title>
+        2024前瞻顯示科技落實於場域應用之創新專題實作競賽
+    </title>
+    <script src="./front.js"></script>
+</head>
+
+<body>
+    <a style="position: fixed; bottom: 10px; right: 10px; z-index: 5;" id="back" onclick="to('page-title')"
+        href="javascript:void(0);">
+        <img src="./src/WEBB-03.png" style="width: 70px; z-index: 5;">
+    </a>
+    <div class="main-menu">
+        <div id="page-title">
+            <img src="./src/web-02.png" style="width: 265px;">
+            <div style="padding-left: 5px; font-size: 7.75px;">
+                <h1>2024 前瞻顯示科技落實於場域應用之</h1>
+                <br>
+                <h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;創新專題實作競賽</h1>
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li><a id="j1" href="./index.html">關於</a></li>
+            <li><a id="j2" href="./levy.html">徵件辦法</a></li>
+            <li><a href="./attend.html">線上報名</a></li>
+            <li onmouseover="switchMenu( this, 'submenu', 'MouseOver')" onmouseout="hideMenu()"><a id="j4"
+                    href="./spot.html">應用場域
+                </a>
+                <ul id="submenu" class="sub-menu" style="display:none;">
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">臺大實驗劇場</a></li>
+                    <li><a onclick="go_page('NTU')" href="javascript:void(0);">師大美術館光影走廊</a></li>
+                    <li><a onclick="go_page('SU')" href="javascript:void(0);">成大智慧運動館及綠幕攝影棚</a></li>
+                    <li><a onclick="go_page('TUNA')" href="javascript:void(0);">北藝大科技藝術館</a></li>
+                    <li><a onclick="go_page('NTUA')" href="javascript:void(0);">南藝大漢寶德紀念館</a></li>
+                    <li><a onclick="go_page('SEM')" href="javascript:void(0);">科教館小黑盒劇場</a></li>
+                </ul>
+            </li>
+            <li onmouseover="switchMenu( this, 'submenu-2', 'MouseOver')" onmouseout="hideMenu()">
+                <a href="./workshop.html">工作坊</a>
+                <ul id="submenu-2" class="sub-menu" style="display:none;">
+                    <li><a href="./NTU.html">沉浸式投影展演實作工作坊</a></li>
+                    <li><a href="./NTNU.html">生成式AI圖像藝術工作坊</a></li>
+                    <li><a href="./SU.html">智慧科技顯示與運動場域工作坊</a></li>
+                    <li><a href="./TUNA.html">XR與多螢互動應用設計工作坊</a></li>
+                    <li><a href="./NTUA.html">光雕建築工作坊</a></li>
+                    <li><a href="./SEM.html">沉浸式聲響劇場光作坊</a></li>
+                </ul>
+            </li>
+            <li><a href="./news.html">最新消息</a></li>
+            <li><a href="./contact.html">聯絡我們</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="article-title" id="levy">
+            <img src="./src/web png-17.png" alt="徵件辦法" style="width: 25%; display: inline-block; margin-bottom: -30px;">
+            <a href="./競賽辦法草案0122.docx"
+                style="text-decoration: none; color:black; display: inline-block; font-size: 18px; margin-left: -20PX;;">點我下載</a>
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            競賽主題
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            本次競賽的主題為前瞻顯示技術在元宇宙與科技藝術之運用。其運用範圍包含但不限於育樂、醫療、交通、零售之應用。鼓勵各團隊於本競賽活動所選定之六大場域中落實前瞻顯示科技之應用，如延伸實境(Extended Reality,
+            XR)、混合實境(Mixed Reality, MR)、擴增實現(Augmented Reality, AR)、虛擬實境(Virtual Reality, VR)，以及沉浸式投影、光雕投影等技術。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            參賽資格
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            本競賽以全國大專院校在學生為參加對象，所有參賽成員均須為在學學生。在學資格以參賽投件時是否具有學生身分認定(需檢附具備在學學生-大專、大學、碩士生或博士生身分之在學證明)。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            參賽方式
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            競賽團隊須自行組隊。每隊由學生2至5位及指導教師1至3位組成。每位學生最多可參加1隊，每隊最多可參賽投件1件。每隊須推派1位隊長做為代表並負責統籌事宜。指導教師所指導的隊伍數目不限。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            競賽階段
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            本競賽分為初選、複選、決選三個階段。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            徵件期間
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            本競賽之徵件期間為113年3月15日至113年5月15日。參賽團隊須於徵件截止當日23:59分前上傳初選文件。主辦單位將依參賽文件之完整性，通知團隊於指定期限內補件，若團隊未能於期限內補件，視同放棄參賽資格。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            初選
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            通過參賽資格審查之團隊，評選委員依據初審標準進行評選，自所有參賽團隊中，擇優錄取至多24件進入複選，並於113年6月15日由主辦單位公布複選入圍名單。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            複選
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            複選入圍團隊須於113年6月28日至國立台北藝術大學科技藝術館進行簡報。評選委員將會自簡報團隊中遴選至多12件進入決選。並於113年6月30日公布決選入圍名單。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            決選團隊之場域輔導
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            在決選前，決選入圍團隊可以獲得所選場域提供之輔導，以落實前瞻顯示科技在示範場域之運用。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            決選
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            決選入圍團隊須於113年10月於選定場域進行實地展示，並由評選委員親自至各場域進行實地評選。實地展示時間由主辦單位視評選委員時間與團隊協調，另行通知。
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            頒獎活動及成果展示
+        </div>
+        <div class="main-text" style="padding-top: 10px;">
+            決選團隊須於頒獎典禮前，繳交作品中英文摘要及相關影音等資料，以便於日後公布於競賽網站。繳交資料與日期由主辦單位另訂。未繳交者不得領取獎勵。
+            主辦單位依據實地評選結果，於113年10月31日公告鉑金獎、金獎、銀獎及優選名單。所有得獎團隊須於113年11月於第七屆國際科技藝術研討會中進行展示，並由評選委員選出最佳展示隊伍，額外頒予最佳展示獎。
+        </div>
+        <div class="article-title" id="levy">
+            <br>
+            <img src="./src/web png-31.png" alt="徵件辦法" style="width: 25%;">
+            <br>
+            <br>
+        </div>
+        <div>
+            <table class="demo">
+                <thead>
+                    <tr>
+                        <th>階段</th>
+                        <th>繳交資料</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first_col">初選</td>
+                        <td>1.作品計劃書(建議包含說明影片)<br>2.基本參賽資料<br>3.各參賽者之在學證明<br>4.指導教師同意書<br>5.智慧財產權聲明與同意書&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">複選</td>
+                        <td>1.複選簡報(建議包含說明影片)</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">決選</td>
+                        <td>1.場域實體展示需求書<br>2.獎金分配同意書&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">現場展示<br>頒獎典禮</td>
+                        <td>
+                            1.作品中英文摘要<br>2.作品影音資料及相關圖片<br>3.現場展示說明書
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="article-title" id="levy">
+            <br>
+            <img src="./src/web png-30.png" alt="徵件辦法" style="width: 25%;">
+            <br>
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            初選
+        </div>
+        <div>
+            <table class="demo">
+                <thead>
+                    <tr>
+                        <th class="first_col">初選評選標準</th>
+                        <th class="first_col">比重</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first_col">作品創意</td>
+                        <td class="first_col">
+                            40%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">科技創新性</td>
+                        <td class="first_col">40%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">內容完整性</td>
+                        <td class="first_col">20%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            複選
+        </div>
+        <div>
+            <br>
+            <table class="demo">
+                <thead>
+                    <tr>
+                        <th class="first_col">複選評選標準</th>
+                        <th class="first_col">比重</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first_col">作品創意</td>
+                        <td class="first_col">
+                            20%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">科技創新性</td>
+                        <td class="first_col">20%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">場域運用契合度</td>
+                        <td class="first_col">30%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">簡報表現</td>
+                        <td class="first_col">30%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+        </div>
+        <div class="sub-title" style="padding-top: 20px;">
+            決選
+        </div>
+        <div>
+            <br>
+            <table class="demo">
+                <thead>
+                    <tr>
+                        <th class="first_col">決選評選標準</th>
+                        <th class="first_col">比重</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first_col">作品創意</td>
+                        <td class="first_col">
+                            10%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">科技創新性</td>
+                        <td class="first_col">10%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">場域運用契合度</td>
+                        <td class="first_col">20%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">作品完整性</td>
+                        <td class="first_col">20%</td>
+                    </tr>
+                    <tr>
+                        <td class="first_col">現場展示</td>
+                        <td class="first_col">40%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
