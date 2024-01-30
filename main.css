@@ -14,7 +14,6 @@ div {
 body {
     background-color: #57EC00;
     display: flex;
-    width: 100%;
     max-width: 1500px;
     flex-direction: column;
     padding-bottom: 30px;
