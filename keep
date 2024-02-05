@@ -76,7 +76,7 @@
             <li><a id="j1" onclick="to('about')" href="javascript:void(0);">關於</a></li>
             <li><a id="j2" onclick="to('levy')" href="javascript:void(0);">徵件辦法</a></li>
             <li><a href="javascript:void(0);">線上報名</a></li>
-            <li><a id="j4" onclick="to('spot')" href="javascript:void(0);">應用場域</a></li>
+            <li><a id="j4" onclick="to('spot')" href="javascript:void(0);">示範場域</a></li>
             <li><a href="javascript:void(0);">工作坊</a></li>
             <li><a href="javascript:void(0);">最新消息</a></li>
             <li><a href="javascript:void(0);">聯絡我們</a></li>
@@ -97,7 +97,7 @@
             <br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;銀獎6隊 獎金3萬
             <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;最佳展示獎1隊 獎金3萬
+            &nbsp;&nbsp;&nbsp;&nbsp;最佳人氣獎1隊 獎金3萬
         </div>
         <div style="max-width: 220px; padding-left: 630px">
             <img src="./src/web png-15.png" style="max-width: 100%;">
@@ -190,7 +190,7 @@
             <br>
             <br>
             決選團隊須於頒獎典禮前，繳交作品中英文摘要及相關影音等資料，以便於日後公布於競賽網站。繳交資料與日期由主辦單位另訂。未繳交者不得領取獎勵。
-            主辦單位依據實地評選結果，於113年10月31日公告鉑金獎、金獎、銀獎及優選名單。所有得獎團隊須於113年11月於第七屆國際科技藝術研討會中進行展示，並由研討會主辦單位所組成之評選團選出最佳展示隊伍，額外頒予最佳展示獎。
+            主辦單位依據實地評選結果，於113年10月31日公告鉑金獎、金獎、銀獎及優選名單。所有得獎團隊須於113年11月於第七屆國際科技藝術研討會中進行展示，並由研討會主辦單位所組成之評選團選出最佳人氣隊伍，額外頒予最佳人氣獎。
         </div>
         <div class="sub-title" style="padding-top: 20px;">
             繳交資料
@@ -207,7 +207,7 @@
     </div>
     <div class="section">
         <div class="article-title" id="spot">
-            <img src="./src/web png-18.png" alt="應用場域" style="max-width: 25%;">
+            <img src="./src/web png-18.png" alt="示範場域" style="max-width: 25%;">
         </div>
         <ul class="spot-list">
             <li><a id="s1" onclick="to('NTU')" href="javascript:void(0);">臺大實驗劇場
